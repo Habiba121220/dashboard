@@ -7,7 +7,7 @@ body {
 
 /* Sidebar */
 .Sidebar {
-  width: 220px;
+  width: 240px;
   height: 100vh;
   padding: 20px;
   background-color: #1976d2;
@@ -29,6 +29,7 @@ body {
 
 .Sidebar h3 i {
   font-size: 22px;
+  
 }
 
 .Sidebar a {
@@ -47,6 +48,7 @@ body {
 
 .Sidebar a i {
   margin-right: 12px;
+  
 }
 
 
@@ -58,10 +60,11 @@ body {
   border-bottom: 1px solid #ddd;
   position: fixed;
   top: 0;
-  left: 220px;
+  left: 290px;
   right: 0;
   z-index: 100;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+
 }
 
 
@@ -113,6 +116,8 @@ body {
   margin-top: 15px;
   display: flex;
   gap: 10px;
+  justify-content: flex-end;
+  margin-right: 20px;
 }
 
 .btn {
@@ -124,6 +129,7 @@ body {
   cursor: pointer;
   font-size: 14px;
   transition: background 0.3s;
+  
 }
 .btn:hover {
   background: #135ba1;
@@ -134,7 +140,7 @@ body {
   display: flex;
   gap: 2rem;
   margin-top: 220px; /* space for fixed nav */
-  margin-left: 250px;
+  margin-left: 290px;
   margin-right: 20px;
 }
 
@@ -173,6 +179,7 @@ body {
   color: #666;
   display: flex;
   gap: 10px;
+  justify-content: flex-end;
 }
 
 /* Right Panel */
